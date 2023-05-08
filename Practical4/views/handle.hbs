@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    body{
+            height: 100vh;
+            background-color: aqua;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .box{
+            height: 300px;
+            width: 450px;
+            background-color: bisque;
+            display: flex;
+            align-items: start;
+            justify-content: center;
+            flex-direction: column;
+            padding:20px ;
+            border-radius: 20px;
+        }
+        h1{
+            margin: 15px;
+            margin-left:90px ;
+            left:50%;
+            
+        }
+        p{
+            
+            font-size: larger;
+            font-weight: bold;
+            margin: 14px;
+        }
+        span{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box">
+    <h1>Student Details</h1>
+    <p class="uname">Name :<span> {{data.username}}</span></p>
+    <p class="uroll">Roll No : <span> {{data.userroll}}</span></p>
+    <p class="udept">Department : <span> {{data.userdept}}</span></p>
+    <p class="ucol">College : <span> {{data.usercollege}}</span></p>
+    </div>
+</body>
+</html>

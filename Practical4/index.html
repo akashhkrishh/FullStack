@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.u-form{
+    padding: 40px;
+    border-radius: 20px;
+    width: 450px;
+    background-color: bisque;
+}
+input{
+    width: 100%;
+    border-radius: 10px;
+    height: 35px;
+    margin: 10px 0px;
+    border: none;
+    padding: 20px;
+    
+}
+input::-webkit-clear-button {
+    display: none;
+}
+
+label{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+}
+.submit{
+    width:170px;
+    padding: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    font-size: 17px;
+    background-color: green;
+    color: white;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    float: right;
+    
+}
+.reset{
+    background-color: crimson;
+    float: left;
+}
+        </style>
+</head>
+<body>
+    <form class="u-form" action="/sample" method="POST">
+        <div class="uname">
+        <label>Name:</label>
+        <input type="text" name="username" required/></div>
+        <div class="uroll">
+        <label>Roll No:</label>
+        <input type="number" name="userroll" required /></div>
+        
+        <label>Department:</label>
+        <input type="text" name="userdept" required/>
+        <div class="uncol">
+        <label>College:</label>
+        <input type="text" name="usercollege" re/></div>
+        <input class="submit reset" type="reset" value="reset"/>
+        <input class="submit" type="submit" value="submit"/>
+        
+    </form>
+</body>
+</html>
