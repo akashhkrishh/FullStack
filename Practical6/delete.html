@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD APPLICATION</title>
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: rgb(208, 124, 14);
+    height: 350px;
+    width: 500px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.dataField{
+    height: 20px;
+    width: 100%;
+    margin: 15px;
+    
+}
+.dataField input{
+    border: none;
+    border-radius: 5px;
+    margin: 0px 20px;
+    float: right;
+    height: 10px;
+    width: 300px;
+    padding: 20px 10px;
+
+}
+.dataField input:focus{
+    border: none;
+}
+.dataField label{
+    margin-left: 20px;
+}
+.button{
+    background-color: rgb(10, 48, 218);
+    padding: 7px 15px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 7px;
+    font-weight: normal;
+    color: aliceblue;
+    width: 92%;
+}
+.button:hover{
+    background-color: red;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 7px;
+    color: aliceblue;
+}
+
+.contain{
+    background-color: rgb(208, 124, 14);
+    height: 350px;
+    width: 500px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+    </style>
+</head>
+<body>
+    <form action="/deleteFile" method="post">
+    <div class="container">
+        <div class="dataField">
+            <label>User Name  : </label>
+            <input type="text" name="username">
+        </div>
+        <input class="button" type="submit" value="Delete">
+    </div>
+    </form>
+</body>
+</html>
