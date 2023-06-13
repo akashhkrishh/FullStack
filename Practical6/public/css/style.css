@@ -1,0 +1,95 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    padding: 25px 10px;
+    width: 600px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.labels{
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    width: 80%;
+    background-color: antiquewhite;
+}
+.labels label{
+    font-weight: bold;
+    margin: 10px;
+    float: left;
+}
+.labels a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 78, 241);
+    border-radius: 5px;
+    float: right;
+    height: 18px;
+    width: 60px;
+    font-weight: 600;
+}
+.labels a:hover{
+    
+    color: white;
+    background-color: rgb(234, 27, 27);
+}
+.read a:hover{
+    color: white;
+    background-color: rgb(17, 217, 97);
+}
+.add a:hover{
+    color: black;
+    background-color: rgb(241, 144, 24);
+}
+.update a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(221, 229, 79);
+}
+.labels input{
+    outline:none;
+   border: 2px solid transparent;
+    float: right;
+    height: 35px;
+    width: 50%;
+    padding: 5px 15px;
+    
+}
+button,.reset{
+    text-decoration: none;
+    height: 45px;
+    width: 185px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 78, 241);
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    margin-top: 20px;
+}
+button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 154, 38);
+}
+.reset:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(227, 120, 38);
+}
+.butt{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+}
+input:focus{
+    border: 2px solid green ;
+}
