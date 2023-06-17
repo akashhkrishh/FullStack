@@ -1,0 +1,74 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    color: greenyellow;
+    font-family: Arial;
+    transition: linear 1s ease;
+}
+body{
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    background-color: black;
+    width: 500px;
+    padding: 20px;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: left;
+    padding-bottom: 0px;
+}
+.content input{
+    font-size: 20px;
+    padding: 20px 10px;
+    color: black;
+    margin-top: 10px;
+    height: 37px;
+    outline: none;
+}
+.Address textarea{
+    height: 80px;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    outline: none;
+    color: black;
+}
+.Error {
+    text-align: center;
+    color: red;
+    margin-top:10px ;
+}
+.butten{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.butten input,.butten button{
+    float: left;
+    margin-left:10px ;
+    border: 2px solid greenyellow;
+    background-color: transparent;
+    height: 60px;
+    width: 215px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 17px;  
+   
+}
+.butten input:hover{
+    background-color: greenyellow;
+    color: black;
+}
+.er{
+    padding-top: 20px;
+}
